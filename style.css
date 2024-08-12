@@ -1,0 +1,119 @@
+
+/* reset basico de estilos */
+
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+ }
+
+/* Estilos Generales */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    color: #333;
+}
+
+header {
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+header .perfil-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+h2{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #008cba;
+    padding-bottom: 5px;
+}
+p, ul li{
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+ul{
+    padding-left: 20px;
+}
+ul li{
+    margin-bottom: 5px;
+}
+
+/* estilos de enlaces */ 
+
+a{
+    color: #008cba;
+}
+a:hover{
+    color: #005f7a;
+}
+
+/* Botones redes sociales */
+
+.social-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #fff;
+}
+.btn-linkedin {
+    background-color: #0073b1;
+}
+
+.btn-github {
+    background-color: #333;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* estilos de footer */
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
